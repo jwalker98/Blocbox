@@ -175,9 +175,9 @@ header .hero img {
 
 
 /* Assigment */
-@media (min-width: 3840px) {
+@media (min-width: 4096px) {
   .container {
-    width: 3686px;
+    width: 3932px;
   }
 
   header nav ul > li {
@@ -190,6 +190,7 @@ header .hero img {
 
   header .hero p {
     font-size: 44px;
+    line-height: 54px;
   }
 
   header .btn-large {
