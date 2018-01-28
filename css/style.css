@@ -10,10 +10,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
 
+h2, h3 {
+color: #003B4C;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+
 h2 {
   font-size: 32px;
-  font-weight: normal;
+  font-weight: 800;
   margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
 }
 
 p {
@@ -41,7 +57,7 @@ p {
 }
 
 .one-half, .one-third, .one-fourth {
-  width:96%;
+  width: 96%;
   float: left;
   position: relative;
   min-height: 1px;
