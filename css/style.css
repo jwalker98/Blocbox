@@ -1,0 +1,49 @@
+html, body {
+  overflow-x:hidden;
+}
+body {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  color: #2D2D2D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 16px
+  line-height: 19px;
+  font-weight: 200;
+}
+
+/* Grid */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+
+.one-half, .one-third, .one-fourth {
+  width:96%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
