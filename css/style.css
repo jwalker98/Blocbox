@@ -175,9 +175,9 @@ header .hero img {
 
 
 /* Assigment */
-@media (min-width: 1280px) {
+@media (min-width: 3840px) {
   .container {
-    width: 1248px;
+    width: 3686px;
   }
 
   header nav ul > li {
