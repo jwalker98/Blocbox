@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Nunito-bold", Helvetica, Arial, sans-serif;
 }
 
 h2, h3 {
@@ -16,20 +16,17 @@ color: #003B4C;
 
 h1 {
   font-size: 48px;
-  font-weight: 800;
   margin-bottom: 6px;
 }
 
 
 h2 {
   font-size: 32px;
-  font-weight: 800;
   margin-bottom: 4px;
 }
 
 h3 {
   font-size: 24px;
-  font-weight: 800;
 }
 
 p {
@@ -63,3 +60,141 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width: 46%;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Header */
+
+header .hero {
+  color: #4C4C4C;
+}
+
+ header nav {
+   padding:1em 0 0 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+   font-weight: 700;
+ }
+ header nav ul > li.btn-outline {
+   padding:8px 22px;
+   border:2px solid #005E72;
+   border-radius: 4px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#005E72;
+ }
+ header nav ul > li > a {
+   color:#005E72;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#FFFFFF;
+ }
+
+ header .hero {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+header .hero p {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 10px 0 40px;
+}
+
+header .hero img {
+  display: block;
+  margin:3em auto 0;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 14px 30px;
+  background: #F95900;
+}
+
+/* Extra stuff I wanted */
+
+.btn:hover {
+  background: #005E72;
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 16px 30px;
+}
+
+.blue-background {
+  background: rgba(182, 228, 242, 0.3);
+  padding-top: 40px;
+}
+
+/* Would like some CSS to vertical-align:middle the sign in and sign up buttons. Tried this but couldn't quite pull it off https://codepen.io/edge0703/pen/iHJuA; */
+
+
+/* Assigment */
+@media (min-width: 1280px) {
+  .container {
+    width: 1248px;
+  }
+
+  header nav ul > li {
+    font-size: 32px;
+  }
+
+  header .hero h1 {
+    font-size: 96px;
+  }
+
+  header .hero p {
+    font-size: 44px;
+  }
+
+  header .btn-large {
+    font-size: 40px;
+  }
+  }
+
+
