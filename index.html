@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
 
 </head>
@@ -30,9 +31,7 @@
         </ul>
       </div>
      </nav>
-      
-     <div class="blue-background">
-
+     <div class="header-background">
       <div class="container hero">
         <h1 class="animated fadeIn">Save, share and collaborate</h1>
         <p>Blocbox lets you collect and sort information.</br>Create simple notes, store images, and add links.</p>
@@ -47,35 +46,53 @@
 
     <!-- Benefits -->
     <section class="benefits">
-      <div class="container benefits-left">
+      <div class="container benefits-block">
+        <div class="float-img">
         <img src="images/benefit-1.png"/>
+        </div>
+        <div class="float-txt">
         <h2>Keep everything in one place</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
       </div>
-      <div class="container benefits-right">
-        <img src="images/benefit-2.png"/>
-        <h2>Organize with ease</h2>
+
+      <div class="container benefits-block">
+       <div class="float-txt">
+        <h2>Organize with Ease</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+         <div class="float-img">
+        <img src="images/benefit-2.png"/>
+        </div>
       </div>
-      <div class="container benefits-left">
+
+  
+      <div class="container benefits-block">
+        <div class="float-img">
         <img src="images/benefit-3.png"/>
+        </div>
+        <div class="float-txt">
         <h2>Share and collaborate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
       </div>
      </section> 
 
     <!-- File types -->
-    <section class="file-types"
+    <section class="file-types">
       <ul class="container">
         <li class="one-third">
+          <i class="fa fa-file-o"></i>
           <h3>Create notes</h3>
           <p>Using Markdown, you can create simple textbased documents to save and share. You can collaborate with others to write and edit content.</p>
         </li>
         <li class="one-third">
+          <i class="fa fa-picture-o"></i>
           <h3>Save images</h3>
           <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>
         </li>
         <li class="one-third">
+          <i class="fa fa-link"></i>
           <h3>Add links</h3>
           <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p>
         </li>
@@ -85,14 +102,20 @@
       <!-- Testimonial slider -->
       <section class="testimonials">
         <div class="container">
+          <div class="testimonial-block">
           <h2>Who uses blocbox?</h2>
-          <p>blocbox has more than 100,000 satisfied users storing and collaborating with teams across the world. Here’s what a few have to say:</p>
-        </div>
-        <div class="container testimonial">
-          <blockquote>blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn’t be easier.</blockquote>
-          <img src="images/stella-b.png" alt="avatar"/>
+          <p>blocbox has more than 100,000 satisfied users storing and collaborating with teams across the world.<br>Here’s what a few have to say:</p>
+
+
+          <div class="testimonial-img"><img src="images/stella-b.png" alt="avatar"/></div>
+          
+          <div class="testimonial-txt">
+          <p id="quote"><em>"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn’t be easier."</em></p>
           <p class="name">Stella B, Freelance Designer<br/>N. Dakota</p>
+          </div>
         </div>
+        </div>
+      
       </section>
 
      <!-- Pricing -->
@@ -144,12 +167,12 @@
           </li>
         </div>
         <div class="container">
-        <p class="disclaimer">*We will not collect your credit card information until your 30-day free trial has expired</p>
+        <p class="small">*We will not collect your credit card information until your 30-day free trial has expired</p>
       </div>
         </ul>
       </section>
 
-<!-- new section -->
+<!-- new section 
       <section class="new-section">
         <div class="container">
           <h1>Get blocbox now</h1>
@@ -157,6 +180,8 @@
           <a href="singup.hmml" class="btn">Start your free trial</a>
         </div>
     </section>
+
+    -->
   </main>
 
 
