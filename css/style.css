@@ -588,6 +588,7 @@ background-color: #003B4C;
   color: #FFFFFF;
   text-decoration: none;
   text-align: right;
+  margin-left: 10px;
   margin-right: 10px;
   margin-top: 8px;
 }
@@ -738,9 +739,14 @@ background-color: #003B4C;
   font-weight: bold;
   color: #BCBCBC;
 }
-}
-}
-}
+ /* Assignment */
 
 
- }}
+
+.items li:hover {
+  background-color: #E5E3E3;
+}
+
+.active {
+  background-color: #E5E3E3;
+}
