@@ -341,7 +341,7 @@ header .hero img {
 
 .box h4 {
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
-  font-weight: 600px;
+  font-weight: 400px;
   font-size: 36px;
   color: #005E72;
   margin: 0 0 0 0;
@@ -449,7 +449,7 @@ background-color: #003B4C;
    z-index: 0;
  }
  footer p, footer nav ul {
-   font-size:14px;
+   font-size:13px;
    font-weight:100;
    text-align: center;
    margin: 10px auto 0;
@@ -468,22 +468,24 @@ background-color: #003B4C;
 
  footer .logo{
    padding: 2.35em 0;
-   margin: 0 auto;
+   margin: 0 0 0 0;
    display: block;
    float: right;
+ 
  }
 
 
 
   @media (min-width: 992px) {
    footer {
-     background-color: #003B4C;
-     background-image: linear-gradient(to left,
+    background-color: #003B4C;
+        background-image: linear-gradient(to left,
         #00CDA6 0%, #00CDA6 33.33333%, #003B4C 33.33333%, #003B4C 100%);
      height: 150px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
+     margin-left: 0;
      text-align: left;
    }
    footer .right-footer-block {
@@ -491,6 +493,7 @@ background-color: #003B4C;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
+     background-color: transparent;
    }
  }
    
@@ -749,4 +752,57 @@ background-color: #003B4C;
 
 .active {
   background-color: #E5E3E3;
+}
+
+ /* More Media Queries */
+  @media (max-width:992px) {
+    .one-half a {
+      display: block;
+      text-align: center;
+
+    }
+    .one-half ul {
+      display: block;
+      position: relative;
+      width: 100%;
+}
+
+
+.one-half .sign-in {
+      display: block;
+      text-align: center;
+
+ }
+
+
+footer .container {
+  width: 100%;
+  overflow: visible;
+  text-align: center;
+  background-color: #003B4C;
+}
+ footer {
+  overflow: visible;
+ }
+
+    .one-third img {
+      display: block;
+      text-align: center;
+
+    }
+
+    footer {
+      position: relative;
+    }
+
+      .right-footer-block.one-third {
+      display: block;
+      text-align: center;
+      position: relative;
+    }
+
+      .right-footer-block.one-third img {
+      display: block;
+      text-align: center;
+    }
 }
