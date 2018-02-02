@@ -49,7 +49,7 @@
 
     <!-- copy structure -->
 
-           <ul class="menu menu-bottom">
+           <ul class="menu-bottom">
             <li>
               <a href="#"><i class="fa fa-cog"></i></a>
               <ul>
@@ -163,6 +163,7 @@
    <script src="js/dropit.js"></script>
    <script type="text/javascript">
      $(".menu").dropit();
+     $(".menu-bottom").dropit();
      $( "#menu" ).click(function() {
        $("#left-nav").toggleClass("open", 200);
      });
