@@ -74,11 +74,7 @@
 
     position: absolute;
     bottom: -180px;
-    right: : 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
+    right: 0; /* dropdown left or right */
     padding: 20px;
     margin: 24px;
 }
