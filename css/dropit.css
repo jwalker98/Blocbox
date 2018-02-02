@@ -70,7 +70,7 @@
 
 /*Assignment*/
 
-.menu-bottom .dropit .dropit-submenu {
+.menu-bottom.dropit .dropit-submenu {
 
     position: absolute;
     bottom: -180px;
@@ -79,7 +79,7 @@
     margin: 24px;
 }
 
- .menu-bottom .dropit .dropit-open .dropit-submenu:after {
+ .menu-bottom.dropit .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
