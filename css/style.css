@@ -238,6 +238,14 @@ header .hero img {
 
 }
 
+.float-right {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: middle;
+    float: right;
+}
+
 
 
   /* File Types */
@@ -409,14 +417,16 @@ header .hero img {
     width: 20%;
     margin: 10px;
     vertical-align: middle;
+    margin-right: 30px;
 }
 
 .testimonial-txt {
     display: inline-block;
     width: 70%;
-    margin: 10px;
     vertical-align: middle;
     text-align: center;
+    margin-left: 10px;
+
 }
 
 .testimonials p {
@@ -832,7 +842,7 @@ background-color: #003B4C;
 
  }
 
-
+/*
 footer .container {
   width: 100%;
   overflow: visible;
@@ -863,4 +873,71 @@ footer .container {
       display: block;
       text-align: center;
     }
+
+    */
+
+    .
+
+
+
+
+
+
+    .float-right {
+      width: 100%;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+      .float-img {
+      width: 100%;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+      .float-txt h2 {
+
+      text-align: center;
+    }
+      .float-txt p {
+
+      text-align: center;
+    }
+
+       .float-txt  {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+          }
+
+      .testimonial-img {
+      width: 100%;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+
+
+      }
+      
+      .testimonial-txt {
+      width: 100%;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+
+      }
+.footer-nav-block {
+  background-color: #003B4C;
+  position: absolute;
+}
+
+.footer-nav-block .logo {
+  text-align: center;
+  overflow: visible;
+
+}
+
 }
